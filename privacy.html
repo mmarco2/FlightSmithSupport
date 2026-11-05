@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How FlightSmith and FlightSmith Support handle aircraft uploads, support reports, and the owner's Gmail sending authorization.">
+  <title>Privacy Policy — FlightSmith</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header><a class="brand" href="index.html">FlightSmith</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="mailto:marcomangiola4614@gmail.com">Contact</a></nav></header>
+  <main id="content" class="policy">
+    <p class="eyebrow">FlightSmith &amp; FlightSmith Support</p>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Last updated: November 5, 2026</p>
+    <p>Marco Mangiola operates FlightSmith and its support service, FlightSmith Support. This notice describes the information processed by the analysis application and, when enabled, its support form and Gmail email worker. Contact <a href="mailto:marcomangiola4614@gmail.com">marcomangiola4614@gmail.com</a> with privacy questions or deletion requests.</p>
+    <h2>Aircraft analysis</h2>
+    <p>When you upload an OpenVSP file, FlightSmith processes the file, its filename, your aircraft and flight-condition inputs, and resulting outputs on the application's hosting infrastructure to perform the requested conversion and analysis. The application uses temporary working directories for conversion and analysis and removes those directories when each operation exits normally. Uploads, results, and diagnostic information can also remain in the active Streamlit session. The analysis workflow does not automatically submit aircraft files to the support database.</p>
+    <h2>Information in support reports</h2>
+    <p>The support form collects your email address, subject, category, and message. You may also provide your name, company, phone number, reproduction steps, images, and OpenVSP files. FlightSmith stores ticket identifiers, submission times, attachment names, sizes and integrity hashes, upload status, and email-delivery status and identifiers. It also records a randomly generated browser-session identifier to limit repeated submissions.</p>
+    <p>This information is used to investigate problems, respond to questions, consider suggestions, maintain a support history, prevent excessive submissions, and deliver related support emails. Provide only information and files you intend to share with FlightSmith support. A file submitted as support evidence is stored without being automatically run through the aircraft analysis engine.</p>
+    <h2>Google account access and Gmail</h2>
+    <p>Only the support sender's owner authorizes a Google account. FlightSmith Support requests <code>https://www.googleapis.com/auth/gmail.send</code> to send ticket notifications and confirmations from <a href="mailto:marcomangiola4614@gmail.com">marcomangiola4614@gmail.com</a>. This permission does not grant the support worker access to read the owner's inbox. Visitors do not authorize access to their own Gmail accounts to submit a report.</p>
+    <p>The worker sends the owner the report details and attachment download links. It sends the submitter a separate receipt containing the ticket number, subject, and category. Replies to the owner's notification are addressed to the submitter; replies to the receipt are addressed to the owner. Google processes these messages for delivery, and sent-message copies may remain in Gmail.</p>
+    <p>OAuth credentials and the refresh token are stored in the owner's protected configuration and in the email worker's server secrets. Google-issued access tokens are used for sending, and Gmail message identifiers are saved with delivery records. This Google authorization and associated data are used only to operate support email delivery. FlightSmith does not sell Google user data or use it for advertising or general-purpose AI model training.</p>
+    <p>FlightSmith's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements. The owner can revoke authorization through <a href="https://myaccount.google.com/connections">Google Account connections</a>; this stops future authorized sending but does not itself delete existing tickets or messages.</p>
+    <h2>Storage, access, and service providers</h2>
+    <p>The analysis app is hosted on Streamlit Community Cloud. Support tickets, attachment metadata, uploads, and email-delivery records are stored in Supabase, with restricted access for FlightSmith's owner and configured server components. Gmail handles support email delivery. GitHub Pages hosts this informational website.</p>
+    <p>Attachments are held in a private storage bucket. The owner's notification contains signed download links valid for seven days. Anyone who possesses a signed link can download its file until the link expires. Expiration of a link does not delete its file. The submitter's automatic receipt does not contain attachment links.</p>
+    <p>Hosting and email providers process information needed to deliver, secure, and operate their services, which may include technical request and usage logs. Their own privacy notices also apply: <a href="https://www.snowflake.com/en/legal/privacy/privacy-policy/">Snowflake / Streamlit</a>, <a href="https://supabase.com/privacy">Supabase</a>, <a href="https://policies.google.com/privacy">Google</a>, and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>. This informational website does not include an added analytics script or an upload form.</p>
+    <h2>Retention and deletion</h2>
+    <p>Support tickets, attachments, and delivery records are retained until the owner deletes them; there is no automatic deletion period. This includes incomplete submissions and reports whose email could not be delivered. Email copies are retained separately in the relevant mailboxes. The owner's local authorization files and the worker's stored authorization credentials remain until removed or replaced.</p>
+    <p>To request access to or deletion of a support report, email <a href="mailto:marcomangiola4614@gmail.com">marcomangiola4614@gmail.com</a>, preferably from the address used for the report, and include its ticket number if available. The owner may need to verify the request before acting. Deleting a database record does not automatically remove separate email copies, and copies held by email recipients cannot be recalled by FlightSmith. If backups have been made, those copies require separate handling.</p>
+    <h2>Updates and contact</h2>
+    <p>This notice will be updated when FlightSmith's data practices change. The date above identifies the latest revision. Questions about the application or this notice can be sent to <a href="mailto:marcomangiola4614@gmail.com">marcomangiola4614@gmail.com</a>.</p>
+  </main>
+  <footer><span>FlightSmith · Marco Mangiola</span><a href="index.html">Home</a></footer>
+</body>
+</html>
